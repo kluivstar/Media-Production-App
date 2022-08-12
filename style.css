@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+/* Nav */
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+}
+
+
+.nav-item a{
+	padding-top: -20px;
+	margin: 5px;
+	
+	border-radius: 10px;
+	
+	
+}
+.nav-item{
+	margin-right: 20px;
+}
+
+
+/* Carousel */
+
+.carousel-item img{
+	transition: all 0.5s ease;
+	
+}
+.carousel-item img:hover{
+	transform: scale(1.1);
+}
+.carousel-caption{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	
+	z-index: 2;
+	
+	text-align: center;
+	
+}
+.carousel-caption h5{
+	font-size: 4vw;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	line-height: 1.9;
+	font-weight: bold;
+}
+.carousel-caption a{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 30px;
+	display: inline-block;
+	background-color: royalblue;
+	border-radius: 20px;
+	color: white;
+	margin-top: 15px;
+}
+.carousel-caption a:hover{
+	transform: scale(1.1);
+	transition: ease-in;
+	color: black;
+	font-weight: bold;
+}
+.carousel-caption p{
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+}
+.btnx{
+	padding: 50px;
+	margin-top: 40px;
+}
+.bounceInLeft{
+	animation-delay: 1s;
+}
+.bounceInRight{
+	animation-delay: 2s;
+}
+
+/* Words */
+
+main{
+	height: 50px;
+	width: 3px;
+	display: block;
+	margin-left: 8px;
+	background-color: dodgerblue;
+}
+.animate__fadeInUp{
+	animation-delay: 5s;
+}
+.animate__fadeInDown{
+	animation-delay: 7s;
+}
+
+
+
+/* Wave */
+.wave-container {  
+	height: 20vh;
+	background-color: #2047b2;
+	position: relative;
+	filter: opacity(20%);
+}
+
+.wave-container::before {   
+	content: "";
+	width: 100%;
+	height: 128px;
+	position: absolute;
+	bottom: -0.3%;
+	left: 0;
+	background-size: auto;
+	background-repeat: repeat no-repeat;
+	background-position: 0vw bottom;
+	background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  134' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 98L50 92C100 86 200 74 300 50C400 26 500 -10 600 2C700 14 800 74 900 98C1000 122 1100 110 1150 104L1200 98V134H1150C1100 134 1000 134 900 134C800 134 700 134 600 134C500 134 400 134 300 134C200 134 100 134 50 134H0V98Z' fill='%23FFF5EE'/></svg>");
+}
+
+@media(max-width:850px) {
+	.wave-container::before {    
+	height: 64px
+	}  
+}
+/* Menu */
+
+
+
+.sec-section{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.menu-section{
+    justify-content: center;
+}
+
+
+.menu-text{
+    text-align: center;
+    padding: 30px;
+    line-height: 35px;
+}
+/* .menu-section{
+    display: grid;
+    margin: 40px;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    
+} */
+
+/* .menu-list1{
+    
+    
+    border-radius: 20px;
+    width: 100%;
+    
+    text-align: center;
+	margin-bottom: 90px;
+    
+} 
+.menu-list1 img{
+    
+    width: 100%;
+    height: 80%;
+    margin-bottom: 20px;
+	transition: 1s linears;
+}
+.menu-list1 h3{
+	margin-top: -90px;
+	font-size: 19px;
+	color: white;
+	font-weight: bolder;
+}
+ */
+
+#inc{
+	height: 300px;
+}
+.menu-list{
+    background-color: #2047b2;
+    padding: 20px;
+	
+    margin: 30px 20px;
+    
+    height: auto;
+    line-height: 60px;
+    justify-content: space-between;
+    transition: .3s linear;
+}
+.menu-list img{
+    border-radius: 50%;
+    width: 50%;
+    height: 60%;
+	margin-bottom: 20px;
+	transition: all 0.5s ease;
+}
+.menu-list img:hover{
+	transform: scale(1.1);
+	
+}
+
+.btnx{
+	color: white;
+}
+
+.menu-list h4{
+    color: grey;
+    
+}
+.menu-list h3{
+    color: white;
+    
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+.menu-list:hover{
+    background-color: black;
+    transform: rotate(0.5deg);
+	
+    
+}
+.menu-listt:hover{
+    background-color: #24A148;
+    transform: rotate(5deg);
+    
+}
+.menu-list h4{
+    font-size: 20px;
+    color: white
+}
+
+/* Footer */
+footer{
+	background-color: grey;
+	width: auto;
+	height: 100px;
+	text-align: center;
+	
+	color: white;
+	
+}
+.footer-details h5{
+	font-size: 12px;
+	margin-top: 30px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" integrity="sha512-qJ0/lqZSkIHb+lwpMS9oGkWGUEliuTgmGuXIUWT64/C7w96WT/RzV1STU3yQScBGK+e81aZFjoRgeJv/taVMgA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <style>
+    body {
+        font-family: 'Poppins', sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: #2047b2;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .buttton .btn{
+        margin-bottom: 20px;
+    }
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    .div-but{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    
+    </style>
+</head>
+<body>
+    <!-- Nav -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">COLORF<span class="span-text">U</span>L
+                <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="active btn btn-primary" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="contact.html">Contact Us</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form -->
+    
+    <h1 style="color: #2047b2; text-align: center;" >REACH OUT TO US!</h1>
+    <div class="div-but">
+        <button type="button" class="btn btn-primary animated bounceInLeft">Phone No: (301)-454-9777</button>
+        <button type="button" class="btn btn-primary animated bounceInRight" href = "mailto: soundprodee@gmail.com">Email: soundprodee@gmail.com</button>
+    </div>
+    <div class="container">
+        <form action="https://formsubmit.co/soundprodee@gmail.com" method="POST">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" required>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Talk To Us..." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    </form>
+
+    </div>
+<!-- Footer -->
+
+
+<footer class="row">
+    <div class="footer-details">
+        <h5>Bowie City, USA</h5>
+        <h5>Copyright © Colorful Productions 2011 - 2022</h5>
+    </div>
+</footer>
+</body>
+</html>
